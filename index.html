@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Collector Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <h1 id="pageTitle">Crystals Collector Game</h1>
+    </header>
+
+    <div class="container">
+        <div class="instructions">
+            <p class="gameRules">
+                Welcome to the game. Click any of the crystals below to begin. Once clicked a random number generatored by the computer will be displayed in the Computer Score box.<br><br> Each crystal has a value that you cannot see. By clicking a crystal
+                the value will be added to your total, which you can see in the Your Total is field.<br> <br> You will continue to click the crystals in an attempt to match the number above from the computer. If you match the number from the computer
+                you win the game. If you go over the number you will lose. You can continue to click crystals until you reach or exceed the number to be guessed.<br> <br>Once you win or lose the game will start over and you can continue to play.
+            </p>
+        </div>
+        <div class="stats">
+            <div class="computerScore">
+                <h3>Computer Score:</h3>
+            </div>
+            <div class="totals">
+                <h5 class="wins">Wins:</h5>
+                <h5 class="losses">Losses:</h5>
+            </div>
+            <div class="playerTotal">
+                <h3>Your total is:</h3>
+            </div>
+        </div>
+        <div class="crystals">
+            <h3>Crystals</h3>
+            <img class="cImage crystalOne" alt="crystal" src="assets/images/crystal1.png">
+            <img class="cImage crystalTwo" alt="crystal" src="assets/images/crystal2.png">
+            <img class="cImage crystalThree" alt="crystal" src="assets/images/crystal3.png">
+            <img class="cImage crystalFour" alt="crystal" src="assets/images/crystal4.png">
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>David Schnibben</p>
+    </footer>
+
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
